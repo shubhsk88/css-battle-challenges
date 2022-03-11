@@ -1,0 +1,32 @@
+body {
+  background: #09042a;
+  position: relative;
+}
+div,
+.box::before {
+  width: 150px;
+  position: absolute;
+  height: 150px;
+  border-radius: 9999px;
+}
+.box {
+  background: #7b3f61;
+
+  top: 65px;
+  left: 68px;
+  overflow: hidden;
+}
+.box::before {
+  content: '';
+  background: #09042a;
+  left: 100px;
+  top: 0;
+}
+
+.b {
+  background: #e78481;
+  top: 65px;
+  left: 168px;
+
+  z-index: -10;
+}
